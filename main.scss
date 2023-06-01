@@ -1,0 +1,327 @@
+// @import './sass/colors';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  @mixin d-felx(){
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  
+    ul{
+      @include d-felx();
+      gap: 10px;
+      justify-content: space-around;
+    }
+    
+    
+    
+    @for $i from 1 through 10 {
+    .col-#{$i}{
+      width: calc(100% / 10 * $i);
+    }
+    }
+
+
+@mixin padding-margin($margin-Y,$margin-X, $padding-Y, $padding-X){
+  margin: {
+    top: $margin-Y;
+    bottom: $margin-Y;
+    
+    left: $margin-X;
+    right: $margin-X;
+  };
+  
+  padding: {
+    top: $padding-Y;
+    bottom: $padding-Y;
+    
+    left: $padding-X;
+    right: $padding-X;
+  };
+  
+}
+
+.Recruterra {
+  .container{
+    @include d-felx();
+    width: 1366px;
+    margin: 0 auto;
+    .header{
+      width: 1300px;
+      @include d-felx();
+      p{
+        color: #303030;
+        span{
+          color: #7B83CE;
+        }
+        
+      }
+      ul{
+        a{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          color: #2C2C2C;
+        }
+        input{
+          border: 1px solid #7B83CE;
+          border-radius: 20px ;
+          width: 210px;
+          height: 40px;
+          ::placeholder{
+            @include padding-margin(0, 0, 10px, 15px);
+            width: 197px;
+            height: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #7B83CE;
+          }
+        }
+      }
+      .header_img{
+        a{
+          margin-left: 50px;
+          img{
+            margin-left: 25px;
+          }
+        }
+      }
+    }
+  }
+    
+    .middle{
+      width: 1366px;
+      @include d-felx();
+      background: #F6F7F8;
+      .m_l_text{
+        h1{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: #2C2C2C;
+          @include padding-margin(30px, -X, -Y, -X)
+
+        }
+        a{
+          @include padding-margin(-Y, 620px, -Y, -X)
+        }
+        .left_vakansiya{
+          @include padding-margin(20px, -X, -Y, -X);
+          width: 640px;
+          background-color: #FFFF;
+         
+  
+          .left_v_text1{
+            margin-left: 20px;
+            @include d-felx();
+            background: #8FD8AC;
+            border-radius: 8px;
+            width: 600px;
+            justify-content: space-between;
+  
+            button{
+              position:absolute;
+              width: 73px;
+              height: 20px;
+              border-radius: 36px;
+              border: none;
+              margin-top: -150px;
+              margin-left: 30px;
+             p{
+                width: 67px;
+                height: 12px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 12px;
+                text-transform: uppercase;
+                color: #2C2C2C;
+                opacity: 0.8;
+              }
+            }
+           .text_l{
+            width: 381px;
+            @include d-felx();
+             @include padding-margin(20px,20px, -Y, -X);
+             
+            h2{
+              width: 361px;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 24px;
+              color: #FFFFFF;
+            }
+            .p1{
+              @include padding-margin(25px, 0px, 0, 0);
+              width: 81px;
+              color: #FFFFFF;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 19px;
+              color: #FFFFFF;
+            }
+            .p2{
+              @include padding-margin(0px, 20px, -Y, -X);
+              width: 240px;
+              color: #FFFFFF;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 19px;
+              color: #FFFFFF;
+            }
+            .p3{
+              width: 39px;
+              color: #FFFFFF;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+              color: #FFFFFF;
+            }
+            .p4{
+              @include padding-margin(0, 16px, 0, 0);
+              width: 306px;
+              color: #FFFFFF;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+              color: #FFFFFF;
+            }
+            
+          }
+          .text_r{
+      
+          .p1{
+            color: #FFFFFF;
+            @include padding-margin(16px, 40px, 0, 0);
+          }
+        }
+      }
+          .left_v_text2{
+            margin-top: 20px;
+            margin-left: 20px;
+            @include d-felx();
+            background:  #FAFBFD;
+            border-radius: 8px;
+            width: 600px;
+            justify-content: space-between;
+  
+           .text_l{
+            width: 381px;
+            @include d-felx();
+             @include padding-margin(20px,20px, -Y, -X);
+             
+            h2{
+              width: 361px;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 24px;
+              color: #2C2C2C;
+            }
+            .p1{
+              @include padding-margin(25px, 0px, 0, 0);
+              width: 81px;
+              color: #2C2C2C;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 19px;
+              color: #2C2C2C;
+            }
+            .p2{
+              @include padding-margin(0px, 20px, -Y, -X);
+              width: 240px;
+              color: #2C2C2C;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 19px;
+              color: #2C2C2C;
+            }
+            .p3{
+              width: 39px;
+              color: #2C2C2C;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+              color: #2C2C2C;
+            }
+            .p4{
+              @include padding-margin(0, 16px, 0, 0);
+              width: 306px;
+              color: #2C2C2C;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+              color: #2C2C2C;
+            }
+            
+          }
+          .text_r{
+      
+            .p1{
+              color: #2C2C2C;
+              @include padding-margin(16px, 40px, 0, 0);
+            }
+          }
+        }
+      } 
+    }
+    .m_r_text{
+      @include d-felx();
+      h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #2C2C2C;
+      }
+      .h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #2C2C2C;
+        opacity: 0.5;
+      }
+
+    }
+  }
+}
+

@@ -1,0 +1,438 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.col-1 {
+  width: 10%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-7 {
+  width: 70%;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-9 {
+  width: 90%;
+}
+
+.col-10 {
+  width: 100%;
+}
+
+.Recruterra .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1366px;
+  margin: 0 auto;
+}
+.Recruterra .container .header {
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Recruterra .container .header p {
+  color: #303030;
+}
+.Recruterra .container .header p span {
+  color: #7B83CE;
+}
+.Recruterra .container .header ul a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2C2C2C;
+}
+.Recruterra .container .header ul input {
+  border: 1px solid #7B83CE;
+  border-radius: 20px;
+  width: 210px;
+  height: 40px;
+}
+.Recruterra .container .header ul input ::-moz-placeholder {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 197px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #7B83CE;
+}
+.Recruterra .container .header ul input ::placeholder {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 197px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #7B83CE;
+}
+.Recruterra .container .header .header_img a {
+  margin-left: 50px;
+}
+.Recruterra .container .header .header_img a img {
+  margin-left: 25px;
+}
+.Recruterra .middle {
+  width: 1366px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #F6F7F8;
+}
+.Recruterra .middle .m_l_text h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2C2C2C;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: -X;
+  margin-right: -X;
+  padding-top: -Y;
+  padding-bottom: -Y;
+  padding-left: -X;
+  padding-right: -X;
+}
+.Recruterra .middle .m_l_text a {
+  margin-top: -Y;
+  margin-bottom: -Y;
+  margin-left: 620px;
+  margin-right: 620px;
+  padding-top: -Y;
+  padding-bottom: -Y;
+  padding-left: -X;
+  padding-right: -X;
+}
+.Recruterra .middle .m_l_text .left_vakansiya {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -X;
+  margin-right: -X;
+  padding-top: -Y;
+  padding-bottom: -Y;
+  padding-left: -X;
+  padding-right: -X;
+  width: 640px;
+  background-color: white;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #8FD8AC;
+  border-radius: 8px;
+  width: 600px;
+  justify-content: space-between;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 button {
+  position: absolute;
+  width: 73px;
+  height: 20px;
+  border-radius: 36px;
+  border: none;
+  margin-top: -150px;
+  margin-left: 30px;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 button p {
+  width: 67px;
+  height: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #2C2C2C;
+  opacity: 0.8;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 .text_l {
+  width: 381px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: -Y;
+  padding-bottom: -Y;
+  padding-left: -X;
+  padding-right: -X;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 .text_l h2 {
+  width: 361px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 .text_l .p1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 81px;
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 .text_l .p2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: -Y;
+  padding-bottom: -Y;
+  padding-left: -X;
+  padding-right: -X;
+  width: 240px;
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 .text_l .p3 {
+  width: 39px;
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 .text_l .p4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 306px;
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text1 .text_r .p1 {
+  color: #FFFFFF;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #FAFBFD;
+  border-radius: 8px;
+  width: 600px;
+  justify-content: space-between;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text2 .text_l {
+  width: 381px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: -Y;
+  padding-bottom: -Y;
+  padding-left: -X;
+  padding-right: -X;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text2 .text_l h2 {
+  width: 361px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C2C2C;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text2 .text_l .p1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 81px;
+  color: #2C2C2C;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2C2C2C;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text2 .text_l .p2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: -Y;
+  padding-bottom: -Y;
+  padding-left: -X;
+  padding-right: -X;
+  width: 240px;
+  color: #2C2C2C;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2C2C2C;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text2 .text_l .p3 {
+  width: 39px;
+  color: #2C2C2C;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text2 .text_l .p4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 306px;
+  color: #2C2C2C;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+.Recruterra .middle .m_l_text .left_vakansiya .left_v_text2 .text_r .p1 {
+  color: #2C2C2C;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.Recruterra .middle .m_r_text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Recruterra .middle .m_r_text h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2C2C2C;
+}
+.Recruterra .middle .m_r_text .h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2C2C2C;
+  opacity: 0.5;
+}/*# sourceMappingURL=main.css.map */
